@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f6f9;
+}
+
+/* CENTER CONTAINER */
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* CARD */
+.card {
+    width: 100%;
+    max-width: 520px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* INPUT GROUP */
+.input-group {
+    position: relative;
+    margin: 15px 0;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 45px 12px 45px; /* space for icons */
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    background: #f9f9f9;
+    font-size: 14px;
+}
+
+/* ICON BASE */
+.input-group i {
+    position: absolute;
+    top: 40%;
+    padding-left: 3%;
+    padding-top: 2%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 14px;
+}
+
+/* Hover */
+.input-group input:hover {
+    border-color: #bcbcbc;
+}
+
+/* Focus */
+.input-group input:focus {
+    outline: none;
+    background: #eff5f5;
+    border-color:#bcbcbc ;
+}
+
+
+/* LEFT ICON */
+.left-icon {
+    right: 433px;
+    padding-top:2%;
+}
+
+/* RIGHT ICON */
+.right-icon {
+    right: 15px;
+    padding-top: 2%;
+    cursor: pointer;
+}
+
+/* BUTTON */
+button {
+    width: 180px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background: #0066cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #0052a3;
+}
+
+.switch a{
+    color: #0a7ff5;
+    text-decoration: none;
+}
+
+.options a{
+padding-left: 37%;
+color: #6398cd;
+}
